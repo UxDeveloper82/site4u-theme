@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My-Videos</title>
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+     <!--Chatting Area-->
+  
+     <!-- Messenger Chat Plugin Code -->
+     <div id="fb-root"></div>
+
+     <!-- Your Chat Plugin code -->
+     <div id="fb-customer-chat" class="fb-customerchat">
+     </div>
+ 
+     <script>
+       var chatbox = document.getElementById('fb-customer-chat');
+       chatbox.setAttribute("page_id", "690772767726869");
+       chatbox.setAttribute("attribution", "biz_inbox");
+     </script>
+ 
+     <!-- Your SDK code -->
+     <script>
+       window.fbAsyncInit = function() {
+         FB.init({
+           xfbml            : true,
+           version          : 'v15.0'
+         });
+       };
+ 
+       (function(d, s, id) {
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) return;
+         js = d.createElement(s); js.id = id;
+         js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+     </script>
+    <!-- preloader start -->
+    <div class="preloader">
+        <div class="spin"></div>
+    </div>
+    <!-- preloader start -->
+    <div class="preloader">
+      <div class="spin"></div>
+    </div>
+            <!-- top header -->
+            <div class="header">
+              <section class="intro">
+                  <div class="top-header bg-secondary pt-2 pb-1">
+                      <div class="container">
+                          <div class="row align-items-center">
+                              <!-- social icons -->
+                              <div class="col-lg-6 col-md-6 text-center text-md-left">
+                                  <span class="text-white">Connect With Me:</span>
+                                  <ul class="list-inline d-inline-block">
+                                      <li class="list-inline-item"><a class="text-white d-inline-block p-2" href="https://www.facebook.com/Icreatesites4u-690772767726869"><i class="fa fa-facebook"></i></a></li>
+                                      <li class="list-inline-item"><a class="text-white d-inline-block p-2" href="https://twitter.com/Uxdeveloper82"><i class="fa fa-twitter"></i></a></li>
+                                      <li class="list-inline-item"><a class="text-white d-inline-block p-2" href="https://www.linkedin.com/in/martin-fernandez-b465b47a"><i class="fa fa-linkedin"></i></a></li>
+                                      <li class="list-inline-item"><a class="text-white d-inline-block p-2" href="https://www.youtube.com/channel/UCymPTmdV5goU-IBMCAPaErQ"><i class="fa fa-youtube"></i></a></li>
+                                  </ul>
+                              </div>
+                              <!-- mail and phone -->
+                              <div class="col-lg-6 col-md-6 text-md-right text-center">
+                                  <ul class="list-inline">
+                                      <li class="list-inline-item mx-0 border-right border-secondary"><a class="text-white d-inline-block px-lg-3 px-2" href="mailto:uxdeveloper82@aol.com">Uxdeveloper82@aol.com</a></li>
+                                      <li class="list-inline-item mx-0"><a class="text-white d-inline-block px-lg-3 px-2 text-decoration-none" href="callto:8639698248">Call Us Now: <span class="text-white-50">863 969 8248</span></a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </section>
+            </div>
+    <nav
+      class="navbar navbar-expand-md navbar-toggleable-sm navbar-light bg-light"
+    >
+      <div class="container">
+        <a href="/" class="navbar-brand text-uppercase font-weight-bold"
+          ><span style="color: red">Icreate</span>sites4u</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarsExampleDefault"
+          aria-controls="navbarsExampleDefault"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="navbar-collapse collapse d-lg-inline-flex justify-content-between"
+          id="navbarsExampleDefault"
+        >
+          <ul class="navbar-nav flex-grow-1">
+            <li class="nav-item">
+              <a class="nav-link active" href="/youtube.html">YouTube</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="page-hero">
+      <div class="section-center">
+        <h3 class="page-hero-title">Home / My Videos</h3>
+      </div>
+    </section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="heading"> <span>About</span> </h1>
+        </div>
+      </div>
+      <div class="row pt-5 mb-5">
+        <div
+          class="col-lg-4 mr-auto px-3 py-3 semiBG d-flex d-flex justify-content-between flex-column mb-lg-0 mb-5"
+        >
+          <section>
+            <p class="bodyFont text-black-50">
+              My Coding Channel is all about making the best with the best tools
+              and sharing my videos with the world.
+            </p>
+            <p class="bodyFont text-black-50">
+              Watch my videos by clicking the link below, or click on one of my
+              most popular playlists.
+            </p>
+          </section>
+          <div class="text-md-right headingFont">
+            <a
+              href="https://www.youtube.com/channel/UCymPTmdV5goU-IBMCAPaErQ"
+              class="btn hero-btn"
+              >Join The channel &#8594;</a
+            >
+          </div>
+        </div>
+        <div class="col-lg-7 px-3 py-3 semiBG">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe
+              width="100%"
+              src="https://www.youtube.com/embed/HpYGcE8jMQc"
+              frameborder="0"
+              allow="autoplay; encrypted-media"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+      <!--end .row-->
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="heading"> <span>Videos</span> </h1>
+        </div>
+      </div>
+      <div class="row" id="youtube-container"></div>
+    </div>
+    <div class="footer-bottomAlt">
+      <div id="social" class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="clearfix">
+              <a
+                href="#"
+                class="social-icon-sm si-dark si-facebook si-light-round"
+              >
+                <i class="fa fa-facebook fa-2x"></i>
+              </a>
+              <a
+                href="#"
+                class="social-icon-sm si-dark si-twitter si-dark-round"
+              >
+                <i class="fa fa-twitter fa-2x"></i>
+              </a>
+              <a
+                href="#"
+                class="social-icon-sm si-dark si-g-plus si-dark-round"
+              >
+                <i class="fa fa-google-plus fa-2x"></i>
+              </a>
+              <a href="#" class="social-icon-sm si-dark si-skype si-dark-round">
+                <i class="fa fa-skype fa-2x"></i>
+              </a>
+              <a
+                href="#"
+                class="social-icon-sm si-dark si-linkedin si-dark-round"
+              >
+                <i class="fa fa-linkedin fa-2x"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <span
+              >&copy; Copyright 2020 - icreatesites4u - All Right Reserved</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/footer bottom-->
+    <a class="back-to-top hidden-xs-down show" id="back-to-top"
+      ><i class="fa fa-3x fa-angle-up"></i
+    ></a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/fade.js"></script>
+    <script src="js/videos.js"></script>
+    <script src="js/preloader.js"></script>
+  </body>
+</html>
